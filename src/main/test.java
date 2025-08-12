@@ -16,6 +16,7 @@ public class test {
         service.Set1TeamDetails();
         service.Print1TeamDetails();
         service.Add1TeamDetails();
+        System.out.println("test github");
     }
 
 }
