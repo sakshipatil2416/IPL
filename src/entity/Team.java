@@ -8,6 +8,22 @@ public class Team {
 	private String coachName;
 	private float nRR;
 	private boolean isQualified;
+	private String shortName;
+	
+	public String getShortName() {
+		return shortName;
+	}
+
+	public void setShortName(String shortName) {
+		this.shortName = shortName;
+	}
+
+	// toString() - >converts object toString
+	// right click -> source -> generate toString()
+	public String toString() {
+		return "Team [id=" + id + ", teamName=" + teamName + ", captainName=" + captainName + ", coachName=" + coachName
+				+ ", nRR=" + nRR + ", isQualified=" + isQualified + ", shortName=" + shortName + "]";
+	}
 	
  // setter-getter
 	public int getId() {
